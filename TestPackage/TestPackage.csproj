@@ -6,7 +6,7 @@
 
   <PropertyGroup>
     <Copyright>2021 Bitdeas</Copyright>
-    <PackageId>$(AssemblyName)</PackageId>
+    <PackageId>$(AssemblyName)_Kalimera</PackageId>
     <PackageProjectUrl>https://github.com/rioka/TestPackage</PackageProjectUrl>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <RepositoryType>git</RepositoryType>
