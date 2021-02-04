@@ -6,7 +6,8 @@ namespace TestPackage
   {
     public string Bar()
     {
-      return "baz";
+      var now = DateTime.UtcNow;
+      return $"baz {now}";
     }
   }
 }
