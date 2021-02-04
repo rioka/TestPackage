@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="TestPackage_Kalimera" Version="1.0.0" />
+    <PackageReference Include="TestPackage_Kalimera" Version="1.0.1" />
   </ItemGroup>
 
 </Project>
