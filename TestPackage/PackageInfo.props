@@ -1,0 +1,11 @@
+﻿<Project>
+  <PropertyGroup>
+    <PackageId>$(AssemblyName)_Kalimera</PackageId>
+    <PackageProjectUrl>https://github.com/rioka/TestPackage</PackageProjectUrl>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/rioka/TestPackage</RepositoryUrl>
+    <PackageTags>foo bar</PackageTags>
+    <Authors>rioka</Authors>
+  </PropertyGroup>
+</Project>

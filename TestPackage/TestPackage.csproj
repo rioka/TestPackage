@@ -1,32 +1,20 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Description>Sample test package to play with pdb, source link, and so on.</Description>
+    <AssemblyName>TestPackage</AssemblyName>
+    <AssemblyDescription>Sample package</AssemblyDescription>
+    <Company>Bitdeas</Company>
   </PropertyGroup>
 
   <PropertyGroup>
+    <Description>Sample test package to play with pdb, source link, and so on.</Description>
     <Copyright>2021 Bitdeas</Copyright>
-    <PackageId>$(AssemblyName)_Kalimera</PackageId>
-    <PackageProjectUrl>https://github.com/rioka/TestPackage</PackageProjectUrl>
-    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/rioka/TestPackage</RepositoryUrl>
     <Deterministic>false</Deterministic>
     <DebugSymbols>true</DebugSymbols>
-    <PackageTags>foo bar</PackageTags>
-    <Authors>rioka</Authors>
-    
   </PropertyGroup>
 
   <Import Project="$(SolutionDir)SourceLink.props" />
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
-    <PackageReference Include="Nerdbank.GitVersioning" Version="3.3.37">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-  </ItemGroup>
+  <Import Project="PackageInfo.props" />
 
 </Project>
