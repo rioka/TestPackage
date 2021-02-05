@@ -3,15 +3,13 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>TestPackage</AssemblyName>
-    <AssemblyDescription>Sample package</AssemblyDescription>
     <Company>Bitdeas</Company>
+    <Copyright>2021 Bitdeas</Copyright>
+    <Description>Sample test package to play with pdb, source link, and so on.</Description>
   </PropertyGroup>
 
   <PropertyGroup>
-    <Description>Sample test package to play with pdb, source link, and so on.</Description>
-    <Copyright>2021 Bitdeas</Copyright>
     <Deterministic>false</Deterministic>
-    <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
 
   <Import Project="$(SolutionDir)SourceLink.props" />
