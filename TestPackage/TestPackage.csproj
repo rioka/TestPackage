@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Sample test package to play with pdb, source link, and so on.</Description>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -15,6 +16,8 @@
     <DebugSymbols>true</DebugSymbols>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <PackageTags>foo bar</PackageTags>
+    <Authors>rioka</Authors>
+    
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)' == 'Release'">
