@@ -5,7 +5,8 @@
     <AssemblyName>TestPackage</AssemblyName>
     <Company>Bitdeas</Company>
     <Copyright>2021 Bitdeas</Copyright>
-    <Description>Sample test package to play with pdb, source link, and so on.</Description>
+    <Description>Sample test package</Description>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup>

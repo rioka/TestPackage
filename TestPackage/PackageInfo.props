@@ -1,6 +1,7 @@
 ﻿<Project>
   <PropertyGroup>
     <PackageId>$(AssemblyName)_Kalimera</PackageId>
+    <PackageDescription>Sample test package to play with pdb, source link, and so on</PackageDescription>
     <PackageProjectUrl>https://github.com/rioka/TestPackage</PackageProjectUrl>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <RepositoryType>git</RepositoryType>
