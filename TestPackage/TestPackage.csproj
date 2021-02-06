@@ -2,10 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyName>TestPackage</AssemblyName>
-    <Company>Bitdeas</Company>
-    <Copyright>2021 Bitdeas</Copyright>
-    <Description>Sample test package</Description>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
@@ -14,6 +10,7 @@
   </PropertyGroup>
 
   <Import Project="$(SolutionDir)SourceLink.props" />
+  <Import Project="AssemblyInfo.props" />
   <Import Project="PackageInfo.props" />
 
 </Project>

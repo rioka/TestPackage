@@ -1,0 +1,8 @@
+﻿<Project>
+  <PropertyGroup>
+    <AssemblyName>TestPackage</AssemblyName>
+    <Company>Bitdeas</Company>
+    <Copyright>2021 Bitdeas</Copyright>
+    <Description>Sample test package</Description>
+  </PropertyGroup>
+</Project>
